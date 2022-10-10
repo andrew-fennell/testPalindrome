@@ -30,6 +30,7 @@ def main():
     parser.add_argument("string", type=str)
 
     args = parser.parse_args()
+    # Adding comment
     if isPalindrome(args.string):
         print(f"{args.string} is a palindrome!")
     else:
